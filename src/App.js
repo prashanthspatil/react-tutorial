@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import Table from './Table'
 import Form from './Form'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-172750896-1')
+ReactGA.pageview(window.location.pathname);
 
 class App extends Component {
 	state = {

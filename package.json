@@ -1,5 +1,5 @@
 {
-  "homepage": "https://taniarascia.github.io/react-tutorial",
+  "homepage": "https://prashanthspatil.github.io/react-tutorial",
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
