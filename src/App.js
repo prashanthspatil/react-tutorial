@@ -4,7 +4,7 @@ import Form from './Form'
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-172750896-1')
-ReactGA.pageview(window.location.pathname);
+ReactGA.pageview(window.location.origin+window.location.pathname);
 
 class App extends Component {
 	state = {
@@ -26,7 +26,7 @@ class App extends Component {
   render() {
   	const { characters } = this.state
     return (
-      <div className="App">
+      <div className="container">
         <h1>Hello, React!</h1>
         <Table characterData={characters} removeCharacter={this.removeCharacter}/>
         <Form handleSubmit={this.handleSubmit} />
